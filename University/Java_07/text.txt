@@ -1,0 +1,13 @@
+SCQ	What is the parent of Error and Exception classes?
+1	Throwable
+0	Catchable
+0	MainError
+0	MainException
+
+MCQ	What are correct statements about Java?
+1	Primitives are passed by value
+1	Object references are passed by value
+0	Objects are passed by reference
+
+CAL	The result of Math.floor(14.452) is:
+14

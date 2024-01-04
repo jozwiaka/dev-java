@@ -1,0 +1,6 @@
+Alt+/ -> autocompletion
+Ctrl+/ -> comment
+Ctrl+d -> delete line
+Ctrl+Alt+ArrowDn -> duplicate line
+Alt+Shift+Y -> toggle word wrap
+Shift+Ctrl+o -> organize imports

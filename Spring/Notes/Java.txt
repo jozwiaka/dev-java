@@ -1,0 +1,39 @@
+@RequestMapping - used at the class level
+@GetMapping - used to connect the methods
+-------------------------------------------------
+f1()
+{
+    Session session = sessionFactory.getCurrentSession();
+	session.save(customer);
+}
+
+@Transactional
+f2()
+{
+    f1()
+}
+-------------------------------------------------
+P5
+WebBrowser->Controller<->Service<->DAO<->Database
+WebBrowser->Controller->JSPPages->WebBrowser
+-------------------------------------------------
+POM = Project Object Model
+POJO = Plain Old JavaScript Object
+JSON = JavaScript Object Notation
+DAO = Data Access Object = pattern = SQL <-> DAO <-> Service <-> REST 
+-------------------------------------------------
+@PostConstruct is called after all injection.
+1. Constructor injection
+2. Setter injection
+3. Field injection
+4. @PostConstruct
+-------------------------------------------------
+Spring Boot includes an embedded server:
+run main:
+2023-03-12T14:29:26.439+01:00  INFO 19324 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+-------------------------------------------------
+@SpringBootApplication = 
+1) @EnableAutoConfiguration = Enables Spring Boot's auto configuration support
+2) @ComponentScan = Component scaning of current package (mypackage.springboot0) and subpackages (e.g. mypackage.springboot0.rest)
+3) @Configuration = Able to register extra beans with @Bean or import other configuration classes
+-------------------------------------------------
